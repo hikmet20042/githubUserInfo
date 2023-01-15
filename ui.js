@@ -18,13 +18,13 @@ class UI {
             </div>
             <div class="col-md-8">
               <button class="btn btn-secondary">
-                Takipçi  <span class="badge badge-light">${user.followers}</span>
+                Foloower  <span class="badge badge-light">${user.followers}</span>
               </button>
               <button class="btn btn-info">
-                Takip Edilen  <span class="badge badge-light">${user.following}</span>
+                Following  <span class="badge badge-light">${user.following}</span>
               </button>
               <button class="btn btn-danger">
-                Repolar  <span class="badge badge-light">${user.public_repos}</span>
+                Repos  <span class="badge badge-light">${user.public_repos}</span>
               </button>
               <hr>
                 <li class="list-group">
